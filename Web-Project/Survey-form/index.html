@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game Survey</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <div id="main">
+<h1 id="title">Game Survey</h1>
+<p id="description">This survey is created for the purpose to know which type of games people prefer to play.</p>
+<form id="form" method="get" action="">
+<label for="name" id="name-label">
+    Name
+    <input type="text" id="name" name="name"  placeholder="Eg Chidi Gideon" required />
+</label>
+<label for="email" id="email-label">
+Email
+ <input type="email" id="email" name="email"  placeholder="example@gmail.com" required/>
+</label>
+<label for="Age" id="number-label">
+    Age 
+    <input type="number" id="number" name="number"  placeholder="optional" />
+
+</label>
+<p>What kind of dimension would you like the most</p>
+<label for="3d">
+<input type="radio" id="3d" name="dimension" value="3d" />
+3D
+</label>
+<label for="2d">
+    <input type="radio" id="2d" name="dimension" value="2d" />
+    2D
+    </label>
+<p>What category would you like to play. You can select all.</p>
+<label for="action">
+    <input type="checkbox" id="action" name="category" value="action" />
+    Action
+</label>
+<label for="adventure">
+    <input type="checkbox" id="adventure" name="category" value="adventure" />
+    Adventure
+</label>
+<label for="puzzle">
+    <input type="checkbox" id="puzzle" name="category" value="puzzle" />
+    Puzzle 
+</label>
+
+</form>
+</div>
+</body>
+</html>

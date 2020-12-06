@@ -11,3 +11,10 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-style: italic;
 }
+.title{
+  text-align: center;
+}
+.description{
+  text-align: center;
+  
+}
