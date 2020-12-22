@@ -39,3 +39,10 @@ body{
     height: 20%;
     border: radius 20;
 }
+@media (min-height: 200px){
+    html{
+        font-size: normal;
+        
+    }
+
+}
